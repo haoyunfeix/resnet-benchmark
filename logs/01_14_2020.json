@@ -1,0 +1,205 @@
+[
+  {
+    "name": "conv2d xShape:1,8,8,256 fShape:1,1,256,1024 stride:1,1 pad:same format:NHWC",
+    "mean": "1.468",
+    "min": "1.393",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,8,8,512 fShape:1,1,512,2048 stride:1,1 pad:same format:NHWC",
+    "mean": "2.341",
+    "min": "1.785",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,8,8,1024 fShape:1,1,1024,2048 stride:1,1 pad:same format:NHWC",
+    "mean": "3.677",
+    "min": "3.408",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,8,8,1024 fShape:1,1,1024,512 stride:1,1 pad:same format:NHWC",
+    "mean": "1.386",
+    "min": "1.291",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,8,8,2048 fShape:1,1,2048,17 stride:1,1 pad:same format:NHWC",
+    "mean": "1.511",
+    "min": "1.399",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,8,8,2048 fShape:1,1,2048,32 stride:1,1 pad:same format:NHWC",
+    "mean": "1.571",
+    "min": "1.496",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,8,8,2048 fShape:1,1,2048,34 stride:1,1 pad:same format:NHWC",
+    "mean": "1.685",
+    "min": "1.592",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,8,8,2048 fShape:1,1,2048,512 stride:1,1 pad:same format:NHWC",
+    "mean": "2.528",
+    "min": "2.090",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,15,15,128 fShape:1,1,128,512 stride:1,1 pad:same format:NHWC",
+    "mean": "0.805",
+    "min": "0.739",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,15,15,256 fShape:1,1,256,1024 stride:1,1 pad:same format:NHWC",
+    "mean": "1.968",
+    "min": "1.867",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,15,15,512 fShape:1,1,512,256 stride:1,1 pad:same format:NHWC",
+    "mean": "1.178",
+    "min": "1.093",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,15,15,512 fShape:1,1,512,1024 stride:1,1 pad:same format:NHWC",
+    "mean": "3.706",
+    "min": "3.501",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,15,15,1024 fShape:1,1,1024,256 stride:1,1 pad:same format:NHWC",
+    "mean": "2.024",
+    "min": "1.847",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,29,29,64 fShape:1,1,64,256 stride:1,1 pad:same format:NHWC",
+    "mean": "0.694",
+    "min": "0.635",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,29,29,128 fShape:1,1,128,512 stride:1,1 pad:same format:NHWC",
+    "mean": "1.927",
+    "min": "1.746",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,29,29,256 fShape:1,1,256,128 stride:1,1 pad:same format:NHWC",
+    "mean": "1.135",
+    "min": "1.006",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,29,29,256 fShape:1,1,256,512 stride:1,1 pad:same format:NHWC",
+    "mean": "3.253",
+    "min": "3.098",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,29,29,512 fShape:1,1,512,128 stride:1,1 pad:same format:NHWC",
+    "mean": "1.833",
+    "min": "1.651",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,57,57,64 fShape:1,1,64,64 stride:1,1 pad:same format:NHWC",
+    "mean": "0.730",
+    "min": "0.636",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,57,57,64 fShape:1,1,64,256 stride:1,1 pad:same format:NHWC",
+    "mean": "1.974",
+    "min": "1.845",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,57,57,256 fShape:1,1,256,64 stride:1,1 pad:same format:NHWC",
+    "mean": "1.966",
+    "min": "1.826",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,8,8,512 fShape:3,3,512,512 stride:1,1 pad:same format:NHWC",
+    "mean": "5.117",
+    "min": "4.635",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,15,15,256 fShape:3,3,256,256 stride:1,1 pad:same format:NHWC",
+    "mean": "4.493",
+    "min": "4.360",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,17,17,256 fShape:3,3,256,256 stride:2,2 pad:valid format:NHWC",
+    "mean": "1.929",
+    "min": "1.844",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,29,29,128 fShape:3,3,128,128 stride:1,1 pad:same format:NHWC",
+    "mean": "4.270",
+    "min": "4.152",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,31,31,128 fShape:3,3,128,128 stride:2,2 pad:valid format:NHWC",
+    "mean": "1.796",
+    "min": "1.648",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,57,57,64 fShape:3,3,64,64 stride:1,1 pad:same format:NHWC",
+    "mean": "4.179",
+    "min": "4.075",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,59,59,64 fShape:3,3,64,64 stride:2,2 pad:valid format:NHWC",
+    "mean": "1.644",
+    "min": "1.501",
+    "numTrials": 20,
+    "backend": "webgpu"
+  },
+  {
+    "name": "conv2d xShape:1,231,231,3 fShape:7,7,3,64 stride:2,2 pad:valid format:NHWC",
+    "mean": "5.101",
+    "min": "4.861",
+    "numTrials": 20,
+    "backend": "webgpu"
+  }
+]
