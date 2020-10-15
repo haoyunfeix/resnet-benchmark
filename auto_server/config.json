@@ -1,0 +1,63 @@
+{
+  "workloads": [
+    {
+      "name": "TensorFlow_WebGPU_ResNet",
+      "url": "http://bjwdeotc009.ccr.corp.intel.com:8080/local-benchmark/",
+      "run_times": 3,
+      "sleep_interval": 300
+    },
+    {
+      "name": "TensorFlow_WebGL_ResNet",
+      "url": "http://bjwdeotc009.ccr.corp.intel.com:8080/local-benchmark/",
+      "run_times": 3,
+      "sleep_interval": 300
+    },
+    {
+      "name": "TensorFlow_WebGPU_MobileNet",
+      "url": "http://bjwdeotc009.ccr.corp.intel.com:8080/local-benchmark/",
+      "run_times": 3,
+      "sleep_interval": 300
+    },
+    {
+      "name": "TensorFlow_WebGL_MobileNet",
+      "url": "http://bjwdeotc009.ccr.corp.intel.com:8080/local-benchmark/",
+      "run_times": 3,
+      "sleep_interval": 300
+    }
+  ],
+  "win_chrome_path": "C:\\Users\\haoyunfe\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe",
+  "linux_chrome_path": "/usr/bin/google-chrome-unstable",
+  "chrome_flags": [],
+  "update_browser_sched": "0 0 0 * * 0,1,2,3,4,5,6",
+  "intel_test_cadence": "0 0 5 * * 0,1,2,3,4,5,6",
+  "amd_test_cadence": "0 0 1 * * Sat",
+  "enable_cron": false,
+  "mail_test_report": {
+    "from": "bots@bjwdeotc009.ccr.corp.intel.com",
+    "to": [
+           "yunfei.hao@intel.com",
+           "jiajia.qin@intel.com",
+           "xing.xu@intel.com",
+           "xinghua.cao@intel.com"
+          ]
+  },
+  "mail_dev_notice": {
+    "from": "bots@bjwdeotc009.ccr.corp.intel.com",
+    "to": [
+           "yunfei.hao@intel.com"
+          ]
+  },
+  "result_server": {
+    "host": "10.239.115.92",
+    "username": "banana",
+    "password": "000"
+  },
+  "chrome_linux_password": "",
+  "dev_mode": true,
+  "chromium_builder": {
+    "enable_chromium_build": false,
+    "commit_id": "",
+    "host": "10.239.61.100",
+    "port": "8790"
+  }
+}
